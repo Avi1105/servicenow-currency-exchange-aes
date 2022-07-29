@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Landing Page</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-27 04:57:13</sys_created_on>
+        <sys_id>a2190f73ebf4d55036be3577e5569cae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_update_name>sys_ux_screen_type_a2190f73ebf4d55036be3577e5569cae</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-27 04:57:13</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</application>
+        <file_path/>
+        <instance_id>a4bbe5d8dbb1cc102f68c597059619fa</instance_id>
+        <instance_name>dev96187</instance_name>
+        <name>sys_ux_screen_type_a2190f73ebf4d55036be3577e5569cae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Landing Page</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-07-27 04:57:13</sys_created_on><sys_id>a2190f73ebf4d55036be3577e5569cae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Landing Page</sys_name><sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package><sys_policy/><sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope><sys_update_name>sys_ux_screen_type_a2190f73ebf4d55036be3577e5569cae</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-07-27 04:57:13</sys_updated_on></sys_ux_screen_type></record_update>]]></payload>
+        <payload_hash>1386056713</payload_hash>
+        <record_name>Landing Page</record_name>
+        <reverted_from/>
+        <source>10d8c6008702011010a843fc0ebb35a9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-02-28 15:46:24</sys_created_on>
+        <sys_id>cacbcc3c87459d5010a843fc0ebb3502</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17f4102e8800000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Screen Collection</type>
+        <update_guid>8acbcc3cac459d50aca89532a5727302</update_guid>
+        <update_guid_history>8acbcc3cac459d50aca89532a5727302:1386056713</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 17:43:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>00542328ba5043bbaa69651e662619f1</sys_id>
+        <sys_metadata>a2190f73ebf4d55036be3577e5569cae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_scope_delete display_value="">0c43e211f0a741d9979e4dd8f1fa7981</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_a2190f73ebf4d55036be3577e5569cae</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_a2190f73ebf4d55036be3577e5569cae">cacbcc3c87459d5010a843fc0ebb3502</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 17:43:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

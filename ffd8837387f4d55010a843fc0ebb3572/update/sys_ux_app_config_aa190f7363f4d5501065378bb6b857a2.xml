@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Currency Exchange Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-27 04:57:12</sys_created_on>
+        <sys_id>aa190f7363f4d5501065378bb6b857a2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Currency Exchange Config</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_update_name>sys_ux_app_config_aa190f7363f4d5501065378bb6b857a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 17:51:42</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=aa190f7363f4d5501065378bb6b857a2"/>
+</record_update>

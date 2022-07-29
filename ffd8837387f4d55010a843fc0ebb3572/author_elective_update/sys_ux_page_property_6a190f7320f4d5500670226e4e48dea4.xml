@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_menu</name>
+        <page display_value="Currency Exchange">ea190f732ff4d550d4f058d0463674a2</page>
+        <required_translations>[ {
+  "message" : "Currency APIs",
+  "comment" : ""
+}, {
+  "message" : "Home",
+  "comment" : ""
+} ]</required_translations>
+        <route display_value="home">4576047087459d5010a843fc0ebb353f</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-27 04:57:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a190f7320f4d5500670226e4e48dea4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_menu</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_update_name>sys_ux_page_property_6a190f7320f4d5500670226e4e48dea4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 17:45:01</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_286544_currenc_0.ea190f732ff4d550d4f058d0463674a2.route.chrome_menu.4576047087459d5010a843fc0ebb353f</unique_name>
+        <value>[&#13;
+        {&#13;
+            "value": {&#13;
+"type":"external",&#13;
+                                     "value":{"href": "now/currency-exchange/home"},&#13;
+            "label": {&#13;
+                "translatable": true,&#13;
+                "message": "Home"&#13;
+            }&#13;
+&#13;
+}&#13;
+},&#13;
+&#13;
+ {&#13;
+"value":{&#13;
+"type":"external",&#13;
+ "value":{"href": "now/currency-exchange/currencyapis"},&#13;
+"label": {&#13;
+                "translatable": true,&#13;
+                "message": "Currency APIs"&#13;
+            }&#13;
+            }&#13;
+}&#13;
+    ]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=6a190f7320f4d5500670226e4e48dea4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</application>
+        <file_path/>
+        <instance_id>a4bbe5d8dbb1cc102f68c597059619fa</instance_id>
+        <instance_name>dev96187</instance_name>
+        <name>sys_ux_page_property_6a190f7320f4d5500670226e4e48dea4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_menu</name><page display_value="Currency Exchange">ea190f732ff4d550d4f058d0463674a2</page><required_translations>[ {
+  "message" : "Currency APIs",
+  "comment" : ""
+}, {
+  "message" : "Home",
+  "comment" : ""
+} ]</required_translations><route display_value="home">4576047087459d5010a843fc0ebb353f</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-07-27 04:57:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6a190f7320f4d5500670226e4e48dea4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>chrome_menu</sys_name><sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package><sys_policy/><sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope><sys_update_name>sys_ux_page_property_6a190f7320f4d5500670226e4e48dea4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-29 17:45:01</sys_updated_on><type>json</type><unique_name>x_286544_currenc_0.ea190f732ff4d550d4f058d0463674a2.route.chrome_menu.4576047087459d5010a843fc0ebb353f</unique_name><value>[&#13;
+        {&#13;
+            "value": {&#13;
+"type":"external",&#13;
+                                     "value":{"href": "now/currency-exchange/home"},&#13;
+            "label": {&#13;
+                "translatable": true,&#13;
+                "message": "Home"&#13;
+            }&#13;
+&#13;
+}&#13;
+},&#13;
+&#13;
+ {&#13;
+"value":{&#13;
+"type":"external",&#13;
+ "value":{"href": "now/currency-exchange/currencyapis"},&#13;
+"label": {&#13;
+                "translatable": true,&#13;
+                "message": "Currency APIs"&#13;
+            }&#13;
+            }&#13;
+}&#13;
+    ]</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=6a190f7320f4d5500670226e4e48dea4"/></record_update>]]></payload>
+        <payload_hash>-1386999525</payload_hash>
+        <record_name>chrome_menu</record_name>
+        <reverted_from/>
+        <source>f7d8837387f4d55010a843fc0ebb3575</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 17:45:01</sys_created_on>
+        <sys_id>5a0c803c87459d5010a843fc0ebb35ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1824b0fc9210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 17:45:01</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>820c803cd2459d50fb2aad9ebb516aad</update_guid>
+        <update_guid_history>820c803cd2459d50fb2aad9ebb516aad:-1386999525,8bfa48b88a459d50249efb1299e7b560:1696512017,07fa48b8ad459d50c705674565d8085f:-407432608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 18:51:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1161992f6caf412081bc13da1f887a90</sys_id>
+        <sys_metadata>6a190f7320f4d5500670226e4e48dea4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_scope_delete display_value="">0c43e211f0a741d9979e4dd8f1fa7981</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_6a190f7320f4d5500670226e4e48dea4</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_6a190f7320f4d5500670226e4e48dea4">5a0c803c87459d5010a843fc0ebb35ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 18:51:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

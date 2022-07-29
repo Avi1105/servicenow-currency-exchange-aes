@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Currency Exchange Config">aa190f7363f4d5501065378bb6b857a2</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Activity</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(task)">2a190f73a8f4d55058948524894c5daf</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_tas_activity</route_type>
+        <screen_type display_value="Activity">aa190f7324f4d55056793928baacb9ad</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-27 04:57:12</sys_created_on>
+        <sys_id>e2190f73f6f4d550d76fc5bd062e79ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activity</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_update_name>sys_ux_app_route_e2190f73f6f4d550d76fc5bd062e79ad</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-27 04:57:12</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e2190f73f6f4d550d76fc5bd062e79ad"/>
+</record_update>

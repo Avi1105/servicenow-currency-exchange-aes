@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>global_search_configurations</name>
+        <page display_value="Currency Exchange">ea190f732ff4d550d4f058d0463674a2</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-27 04:57:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>aa190f7341f4d550260c6d38c67d2ea4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_update_name>sys_ux_page_property_aa190f7341f4d550260c6d38c67d2ea4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-27 04:57:11</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_286544_currenc_0.ea190f732ff4d550d4f058d0463674a2.root.global_search_configurations</unique_name>
+        <value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=aa190f7341f4d550260c6d38c67d2ea4"/>
+</record_update>

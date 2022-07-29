@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sc_req_item">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,cat_item.picture,short_description,price,recurring_price,recurring_frequency,state,number,cat_item.name</field_list>
+        <name>My Requests - Requested item predicate</name>
+        <order/>
+        <predicate_bundle display_value="My requests - reqested item bundle">2e190f7318f4d550fd0c51bbc42ddda8</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-27 04:57:13</sys_created_on>
+        <sys_id>aa190f7368f4d5508f1e69faf9f210a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests - Requested item predicate</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_aa190f7368f4d5508f1e69faf9f210a7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-27 04:57:13</sys_updated_on>
+        <table>sc_req_item</table>
+        <ux_template display_value="Custom Portal Landing - My Requests template">6e190f73aef4d550be6aa3c1b71476a7</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>
