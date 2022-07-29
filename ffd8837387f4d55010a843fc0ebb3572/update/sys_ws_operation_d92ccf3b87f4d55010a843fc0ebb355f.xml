@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>currency</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var convertfrom = decodeURI(request.pathParams.convertfrom);
+	var convertto = decodeURI(request.pathParams.convertto);
+	var amount = decodeURI(request.pathParams.amount);
+	var conv = new sn_currency.GlideCurrencyConverter(convertfrom, convertto);
+conv.setAmount(amount);
+	var convertValues = conv.convert();
+		var fixed = convertValues.getAmount();
+
+var conversion = conv.convert();
+
+	return{
+		convertfrom:convertfrom,
+		convertto : convertto,
+		amount: amount,
+		convertedvalues : fixed
+		
+	};
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_286544_currenc_0/currency_apis/{convertfrom}/{convertto}/{amount}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/{convertfrom}/{convertto}/{amount}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>false</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 05:14:09</sys_created_on>
+        <sys_id>d92ccf3b87f4d55010a843fc0ebb355f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>currency</sys_name>
+        <sys_package display_value="Currency Exchange" source="x_286544_currenc_0">ffd8837387f4d55010a843fc0ebb3572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Currency Exchange">ffd8837387f4d55010a843fc0ebb3572</sys_scope>
+        <sys_update_name>sys_ws_operation_d92ccf3b87f4d55010a843fc0ebb355f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 06:04:47</sys_updated_on>
+        <web_service_definition display_value="Currency APIs">a90c87f787f4d55010a843fc0ebb35b8</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
